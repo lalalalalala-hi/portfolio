@@ -1,0 +1,11 @@
+<div id="main">
+        <!-- Footer -->
+        <footer>
+            <div class="pagination">
+                <!--<a href="#" class="previous">Prev</a>-->
+                <a routerLink="/ai" [ngClass]="{'page': true, 'active': router.isActive('/ai', true)}">1</a>
+                <a routerLink="/ar" [ngClass]="{'page': true, 'active': router.isActive('/ar', true)}">2</a>
+            </div>
+        </footer>
+</div>
+<router-outlet></router-outlet>

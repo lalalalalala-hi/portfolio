@@ -1,0 +1,14 @@
+<nav id="nav">
+    <ul class="links">
+      <li [ngClass]="{'active': isActive('/about')}"><a routerLink="/about">About</a></li>
+      <li [ngClass]="{'active': isActive('/ai') || isActive('/ar')}"><a routerLink="/project">Projects</a></li>
+      <li [ngClass]="{'active': isActive('/contact')}"><a routerLink="/contact">Contact</a></li>
+    </ul>
+    <ul class="icons">
+      <li><a href="https://www.linkedin.com/in/teh-jing-ling-89971b1aa/" class="icon brands fa-linkedin"><span class="label">Twitter</span></a></li>
+      <li><a href="https://github.com/lalalalalala-hi" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+    </ul>
+  </nav>
+
+  <router-outlet></router-outlet>
+  
