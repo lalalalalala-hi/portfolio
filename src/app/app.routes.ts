@@ -9,7 +9,7 @@ import { ArComponent } from './pages/ar/ar.component';
 export const routes: Routes = [
   { path: '', redirectTo: 'about', pathMatch: 'full' },
   { path: 'about', component: AboutComponent },
-  { path: 'project', redirectTo: 'ai', pathMatch: 'full' },
+  // { path: 'project', redirectTo: 'ai', pathMatch: 'full' },
   { path: 'contact', component: ContactComponent },
   { path: 'ai', component: AiComponent },
   { path: 'ar', component: ArComponent },
