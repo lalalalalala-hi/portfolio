@@ -1,0 +1,9 @@
+.video-container {
+    display: flex;
+    justify-content: center; /* Aligns horizontally */
+    align-items: center;     /* Aligns vertically */          /* Full viewport height */
+  }
+  
+  video {
+    width: 400px;       /* Ensures the video fits within the container */
+  }
