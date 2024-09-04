@@ -27,6 +27,7 @@ export class NavfooterComponent implements OnInit {
       .pipe(filter((event) => event instanceof NavigationEnd))
       .subscribe(() => {
         this.currentRoute = this.router.url;
+        window.scrollTo(0, 0);
       });
   }
 
